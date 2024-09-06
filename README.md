@@ -18,19 +18,19 @@ Wrap text content with it:
 
 ```vue
 <script setup>
-import WrapBalancer from 'vue-wrap-balancer'
+import { Balancer } from 'vue-wrap-balancer'
 </script>
 
 <template>
   <h1>
-    <WrapBalancer>My Awesome Title</WrapBalancer>
+    <Balancer>My Awesome Title</Balancer>
   </h1>
 </template>
 ```
 
-### `<WrapBalancer>`
+### `<Balancer>`
 
-`<WrapBalancer>` is the main component of the library. It will automatically balance the text content inside it. It accepts the following props:
+`<Balancer>` is the main component of the library. It will automatically balance the text content inside it. It accepts the following props:
 
 - **`as`** (_optional_): The HTML tag to be used to wrap the text content. Default to `span`.
 - **`ratio`** (_optional_): The ratio of “balance-ness”, 0 <= ratio <= 1. Default to `1`.
